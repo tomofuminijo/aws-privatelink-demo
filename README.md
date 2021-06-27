@@ -1,10 +1,10 @@
-# VCP PrivateLink Demo 
+# AWS PrivateLink Demo 
 
 This is a demo of PrivateLink. It includes demo instructions and a CloudFormation template.
 
 - Demo1: Create My VPC Service and access the service via Priavte Link
 
-# Demo1: Demo1: Create VPC Service and access it with Priavte Link
+# Demo1: Create VPC Ednpoint Service and access it with Priavte Link
 
 ![Demo1-PrivateLink-vpc-service](./images/Demo1-PrivateLink-vpc-service.png)
 
