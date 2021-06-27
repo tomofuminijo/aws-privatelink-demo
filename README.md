@@ -11,7 +11,7 @@ This is a demo of PrivateLink. It includes demo instructions and a CloudFormatio
 ## How to demo
 
 - Step1: Create a stack using Demo1-PrivateLink-vpc-service.yaml in Tokyo region
-- Step2: To create private link for my custom service, do following cli command. And then copy the DnsName that is outputed 'create-vpc-endpoint' api.
+- Step2: To create VPCEndpoint(PrivateLink) tor your custom VPC Endpoint service, do following cli command. And then copy the DnsName that is outputed 'create-vpc-endpoint' api.
   ```
   STACK_NAME=write_your_stack_name_here
   VPC1=$(aws cloudformation describe-stacks --stack-name $STACK_NAME --query 'Stacks[*].Outputs[?OutputKey==`VPC1`].OutputValue' --output text)
